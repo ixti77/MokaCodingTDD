@@ -11,7 +11,21 @@
 		A779616E27A1FFE700A9D19F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779616D27A1FFE700A9D19F /* ContentView.swift */; };
 		A779617027A1FFE800A9D19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A779616F27A1FFE800A9D19F /* Assets.xcassets */; };
 		A779617327A1FFE800A9D19F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A779617227A1FFE800A9D19F /* Preview Assets.xcassets */; };
+		A779618027A2004800A9D19F /* MokaCodingTDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779617F27A2004800A9D19F /* MokaCodingTDDTests.swift */; };
+		A779618727A2005F00A9D19F /* MenuDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779618627A2005F00A9D19F /* MenuDataSourceTests.swift */; };
+		A779618927A200DB00A9D19F /* MenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779618827A200DB00A9D19F /* MenuDataSource.swift */; };
+		A779618B27A2053100A9D19F /* Pizza+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779618A27A2053100A9D19F /* Pizza+Extension.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A779618127A2004800A9D19F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A779616027A1FFE700A9D19F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A779616727A1FFE700A9D19F;
+			remoteInfo = MokaCodingTDD;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A779616827A1FFE700A9D19F /* MokaCodingTDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MokaCodingTDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +33,22 @@
 		A779616D27A1FFE700A9D19F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A779616F27A1FFE800A9D19F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A779617227A1FFE800A9D19F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A779617D27A2004800A9D19F /* MokaCodingTDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MokaCodingTDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A779617F27A2004800A9D19F /* MokaCodingTDDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MokaCodingTDDTests.swift; sourceTree = "<group>"; };
+		A779618627A2005F00A9D19F /* MenuDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDataSourceTests.swift; sourceTree = "<group>"; };
+		A779618827A200DB00A9D19F /* MenuDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDataSource.swift; sourceTree = "<group>"; };
+		A779618A27A2053100A9D19F /* Pizza+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pizza+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A779616527A1FFE700A9D19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A779617A27A2004800A9D19F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				A779616A27A1FFE700A9D19F /* MokaCodingTDD */,
+				A779617E27A2004800A9D19F /* MokaCodingTDDTests */,
 				A779616927A1FFE700A9D19F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				A779616827A1FFE700A9D19F /* MokaCodingTDD.app */,
+				A779617D27A2004800A9D19F /* MokaCodingTDDTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				A779616B27A1FFE700A9D19F /* MokaCodingTDDApp.swift */,
+				A779618827A200DB00A9D19F /* MenuDataSource.swift */,
 				A779616D27A1FFE700A9D19F /* ContentView.swift */,
 				A779616F27A1FFE800A9D19F /* Assets.xcassets */,
 				A779617127A1FFE800A9D19F /* Preview Content */,
@@ -65,6 +94,16 @@
 				A779617227A1FFE800A9D19F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A779617E27A2004800A9D19F /* MokaCodingTDDTests */ = {
+			isa = PBXGroup;
+			children = (
+				A779617F27A2004800A9D19F /* MokaCodingTDDTests.swift */,
+				A779618627A2005F00A9D19F /* MenuDataSourceTests.swift */,
+				A779618A27A2053100A9D19F /* Pizza+Extension.swift */,
+			);
+			path = MokaCodingTDDTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +126,24 @@
 			productReference = A779616827A1FFE700A9D19F /* MokaCodingTDD.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A779617C27A2004800A9D19F /* MokaCodingTDDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A779618327A2004800A9D19F /* Build configuration list for PBXNativeTarget "MokaCodingTDDTests" */;
+			buildPhases = (
+				A779617927A2004800A9D19F /* Sources */,
+				A779617A27A2004800A9D19F /* Frameworks */,
+				A779617B27A2004800A9D19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A779618227A2004800A9D19F /* PBXTargetDependency */,
+			);
+			name = MokaCodingTDDTests;
+			productName = MokaCodingTDDTests;
+			productReference = A779617D27A2004800A9D19F /* MokaCodingTDDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +156,10 @@
 				TargetAttributes = {
 					A779616727A1FFE700A9D19F = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					A779617C27A2004800A9D19F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A779616727A1FFE700A9D19F;
 					};
 				};
 			};
@@ -116,6 +177,7 @@
 			projectRoot = "";
 			targets = (
 				A779616727A1FFE700A9D19F /* MokaCodingTDD */,
+				A779617C27A2004800A9D19F /* MokaCodingTDDTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +192,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A779617B27A2004800A9D19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +206,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A779618927A200DB00A9D19F /* MenuDataSource.swift in Sources */,
 				A779616E27A1FFE700A9D19F /* ContentView.swift in Sources */,
 				A779616C27A1FFE700A9D19F /* MokaCodingTDDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A779617927A2004800A9D19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A779618B27A2053100A9D19F /* Pizza+Extension.swift in Sources */,
+				A779618027A2004800A9D19F /* MokaCodingTDDTests.swift in Sources */,
+				A779618727A2005F00A9D19F /* MenuDataSourceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A779618227A2004800A9D19F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A779616727A1FFE700A9D19F /* MokaCodingTDD */;
+			targetProxy = A779618127A2004800A9D19F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A779617427A1FFE800A9D19F /* Debug */ = {
@@ -319,6 +407,42 @@
 			};
 			name = Release;
 		};
+		A779618427A2004800A9D19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6FFH4WFY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.ikhtiyor-nurmatov.MokaCodingTDDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MokaCodingTDD.app/MokaCodingTDD";
+			};
+			name = Debug;
+		};
+		A779618527A2004800A9D19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6FFH4WFY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.ikhtiyor-nurmatov.MokaCodingTDDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MokaCodingTDD.app/MokaCodingTDD";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +460,15 @@
 			buildConfigurations = (
 				A779617727A1FFE800A9D19F /* Debug */,
 				A779617827A1FFE800A9D19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A779618327A2004800A9D19F /* Build configuration list for PBXNativeTarget "MokaCodingTDDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A779618427A2004800A9D19F /* Debug */,
+				A779618527A2004800A9D19F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
